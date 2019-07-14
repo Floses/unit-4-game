@@ -12,10 +12,12 @@ $(document).ready(function() {
   var wins = 0;
   var losses = 0;
   var totalScore = 0;
+
   // appending our values to the html
-  $("#wins").append(wins);
-  $("#losses").append(losses);
+  $(".winRecord").append(wins);
+  $(".lossRecord").append(losses);
   $(".totalScore").append(totalScore);
+
   // here we will create our on click events for our gems
 
   $("#blue").on("click", function() {
@@ -60,14 +62,15 @@ $(document).ready(function() {
   function win() {
     $(".outcome").text("YOU WIN!");
     wins++;
+    $("#winRecord").text(wins);
     gameReset();
   }
   function lose() {
     $(".outcome").text("YOU LOSE!");
     losses++;
+    $("#lossRecord").text(losses);
     gameReset();
   }
-
   // this will be the function to reset the game
 
   function gameReset() {
@@ -81,4 +84,5 @@ $(document).ready(function() {
     totalScore = 0;
     $(".totalScore").text(totalScore);
   }
+  $("#reset").click(gameReset);
 });
