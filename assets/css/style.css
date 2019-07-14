@@ -41,3 +41,10 @@ html {
 #losses {
   color: red;
 }
+
+.gems {
+  padding: 10%;
+}
+.images {
+  margin: auto;
+}
