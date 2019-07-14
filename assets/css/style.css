@@ -48,3 +48,11 @@ html {
 .images {
   margin: auto;
 }
+
+.totalScore {
+  margin: auto;
+  color: goldenrod;
+  text-shadow: 4px 6px 30px gold;
+  text-align: center;
+  font-size: 5rem;
+}
