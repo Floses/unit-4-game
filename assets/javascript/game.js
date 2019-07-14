@@ -1,19 +1,8 @@
 // on page start I need to generate a random number for people to guess and insert it into our random number div
 $(document).ready(function() {
-  var guess = 0;
-  var randomNumber = randomNum();
-  var wins = 0;
-  var losses = 0;
-  var gem = gemNum();
-
-  function gemNum() {
-    $(".blue").attr(Math.floor(Math.random() * 12) + 1);
-  }
+  var randomNum = Math.floor(Math.random() * 102) + 19;
+  console.log(randomNum);
 });
-
-function randomNum() {
-  $(".randomNum").text(Math.floor(Math.random() * 102) + 19);
-}
 
 // also on page start I need to generate for seperate random numbers and assign them one to each gem for the player guesses
 
