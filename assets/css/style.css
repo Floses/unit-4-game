@@ -50,7 +50,7 @@ html {
   margin: auto;
 }
 
-.totalScore {
+.guessTotal {
   color: goldenrod;
   text-shadow: 4px 6px 30px gold;
   text-align: center;
