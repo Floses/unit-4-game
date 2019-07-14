@@ -24,3 +24,9 @@
   text-align: center;
   font-size: 5rem;
 }
+
+.score {
+  margin: auto;
+  font-size: 2rem;
+  text-shadow: 4px 6px 30px black;
+}
