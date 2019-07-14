@@ -12,4 +12,8 @@ $(document).ready(function() {
   var wins = 0;
   var losses = 0;
   var totalScore = 0;
+
+  $("#wins").append(wins);
+  $("#losses").append(losses);
+  $(".totalScore").append(totalScore);
 });
