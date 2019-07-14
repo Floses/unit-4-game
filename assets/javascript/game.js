@@ -8,4 +8,8 @@ $(document).ready(function() {
   var gem2 = Math.floor(Math.random() * 12) + 1;
   var gem3 = Math.floor(Math.random() * 12) + 1;
   var gem4 = Math.floor(Math.random() * 12) + 1;
+
+  var wins = 0;
+  var losses = 0;
+  var totalScore = 0;
 });
