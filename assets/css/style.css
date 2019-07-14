@@ -30,3 +30,11 @@
   font-size: 2rem;
   text-shadow: 4px 6px 30px black;
 }
+
+#wins {
+  color: green;
+}
+
+#losses {
+  color: red;
+}
