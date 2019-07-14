@@ -10,3 +10,9 @@
   color: rgba(255, 255, 255, 0.5);
   text-shadow: 1px 2px 15px white;
 }
+
+.instructions {
+  color: rosybrown;
+  text-shadow: 1px 2px 15px gray;
+  font-size: 2rem;
+}
