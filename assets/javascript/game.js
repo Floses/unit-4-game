@@ -16,7 +16,7 @@ $(document).ready(function() {
   $("#wins").append(wins);
   $("#losses").append(losses);
   $(".totalScore").append(totalScore);
-  // here we will create our on click elements for our gems
+  // here we will create our on click events for our gems
 
   $("#blue").on("click", function() {
     totalScore = totalScore + gem1;
