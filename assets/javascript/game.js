@@ -74,7 +74,7 @@ $(document).ready(function() {
   // this will be the function to reset the game
 
   function gameReset() {
-    var randomNum = Math.floor(Math.random() * 102) + 19;
+    randomNum = Math.floor(Math.random() * 102) + 19;
     $(".randomNum").text(randomNum);
 
     gem1 = Math.floor(Math.random() * 12) + 1;
@@ -82,7 +82,5 @@ $(document).ready(function() {
     gem3 = Math.floor(Math.random() * 12) + 1;
     gem4 = Math.floor(Math.random() * 12) + 1;
     totalScore = 0;
-    $(".totalScore").text(totalScore);
   }
-  $("#reset").click(gameReset);
 });
